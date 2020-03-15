@@ -1,0 +1,99 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8CAEAF;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 2px 2px 4px #4b6060;
+}
+
+.box-one{
+    background-color: #EEECE0;
+    width: 50%;
+    height: 80vh;
+}
+
+.nav-icon{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.github{
+    flex-grow: 2;
+    font-size: 4em;
+    color: #517780;
+}
+
+.insta, .twitter{
+    color: #BD5243;
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+.title{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 4em;
+    font-family: 'Lobster', cursive;
+    color: #d6d2d0;
+    text-shadow: 2px 2px 1px #BD5243, 3px 3px 2px #111;
+}
+
+.card{
+    width: 40%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    background-color: #BD5243;
+}
+
+h2{
+    color: #EEECE0;
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+    border: 2px solid #d6d2c0;
+    padding: 0.5rem 1.5rem;
+}
+
+h2:hover{
+    cursor: pointer;
+    background-color: #d87365;
+}
+
+.box-two{
+    width: 50%;
+    height: 80vh;
+    background-image: url('../img/bridge.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
